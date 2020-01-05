@@ -2,54 +2,36 @@
   <v-layout column justify-center align-center>
     <v-flex xs12 sm8 md6>
       <div class="text-center">
-        <logo />
-        <vuetify-logo />
+        <img src="img/front.png" />
       </div>
       <v-card>
         <v-card-title class="headline">
-          Welcome to the Vuetify + Nuxt.js template
+          ЛАО ЦЗЫ И ЕГО ТРАКТАТ
         </v-card-title>
         <v-card-text>
           <p>
-            Vuetify is a progressive Material Design component framework for
-            Vue.js. It was designed to empower developers to create amazing
-            applications.
+            Авторство древнекитайского текста «Лао цзы» (досл. «Старый мудрец» или «Старец-дитя») принято приписывать
+            некоему уроженцу южного удела Чу, из рода Ли, по имени Эр, жившему в VI-V веках до н.э. Согласно ханьскому
+            историку Сыма Цяню (145-86 гг. до н.э.), Ли Эр служил хранителем дворцового архива в доме Чжоу, но,
+            разочаровавшись в современной ему эпохе, решил покинуть пределы страны. При переходе западного рубежа
+            начальник заставы попросил, чтобы Ли Эр для него оставил рукописный текст, содержащий основы учения мудрого
+            старца. Так, согласно описанному Сыма Цянем в 63-й главе «Ши цзи», появилась книга, состоящая из верхнего и
+            нижнего разделов, и содержащая более пяти тысяч слов. В последующие века за этой книгой закрепилось
+            классическое название «Дао дэ цзин» («Канон/писание о пути и добродетели»), и, уже разбитая на главы (т.н.
+            чжаны), число которых традиционно составляет 81, она известна широкому кругу читателей как в Китае, так и во
+            всём мире.
           </p>
           <p>
-            For more information on Vuetify, check out the
-            <a href="https://vuetifyjs.com" target="_blank"> documentation </a>.
+            Итак, «Дао дэ цзин» как позднее закрепившееся название текста «Лао цзы», состоит из трёх знаков. Первый знак
+            - да̀о дословно означает «путь», «дорога». Однако у Лао цзы Путь есть нечто невидимое, не постигаемое ни
+            органами чувств человека, ни разумом. Путь, как отправная точка развития, развёртывание вселенной, Закон, от
+            которого зависит всё сущее. Второй знак дэ́ принято толковать как «добродетель», но Лао цзы придаёт этому
+            понятию также значение некой «благой силы», которую накапливает мудрый человек. Наличие дэ́ можно определить
+            как необходимое условие для связи человека с самим Путём-Дао. Наконец, знак цзӣн, вероятно, в
+            первоначальном значении мог переводиться как «основа ткани». Но с ростом комментаторского наследия
+            приобретает иной смысл, китаисты наиболее склонны трактовать его как «канон». В русском языке, выбирая
+            наиболее близкий термин, можно остановиться на слове «писание».
           </p>
-          <p>
-            If you have questions, please join the official
-            <a href="https://chat.vuetifyjs.com/" target="_blank" title="chat">
-              discord </a
-            >.
-          </p>
-          <p>
-            Find a bug? Report it on the github
-            <a
-              href="https://github.com/vuetifyjs/vuetify/issues"
-              target="_blank"
-              title="contribute"
-            >
-              issue board </a
-            >.
-          </p>
-          <p>
-            Thank you for developing with Vuetify and I look forward to bringing
-            more exciting features in the future.
-          </p>
-          <div class="text-xs-right">
-            <em><small>&mdash; John Leider</small></em>
-          </div>
-          <hr class="my-3" />
-          <a href="https://nuxtjs.org/" target="_blank">
-            Nuxt Documentation
-          </a>
-          <br />
-          <a href="https://github.com/nuxt/nuxt.js" target="_blank">
-            Nuxt GitHub
-          </a>
         </v-card-text>
         <v-card-actions>
           <v-spacer />
@@ -63,13 +45,7 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-import VuetifyLogo from '~/components/VuetifyLogo.vue'
-
 export default {
-  components: {
-    Logo,
-    VuetifyLogo
-  }
+  components: {}
 }
 </script>
