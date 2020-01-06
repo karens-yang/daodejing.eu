@@ -35,6 +35,13 @@
       <!--      <v-btn @click.stop="fixed = !fixed" icon>-->
       <!--        <v-icon>mdi-minus</v-icon>-->
       <!--      </v-btn>-->
+      <img
+        src="img/logo.png"
+        alt="logo"
+        width="48px"
+        height="48px"
+        style="margin-left:5px; margin-right: 15px;"
+      />
       <v-toolbar-title v-text="title" />
       <v-spacer />
       <!--      <v-btn @click.stop="rightDrawer = !rightDrawer" icon>-->
@@ -59,6 +66,13 @@
     <!--      </v-list>-->
     <!--    </v-navigation-drawer>-->
     <v-footer :fixed="fixed" app>
+      <img
+        src="img/logo.png"
+        alt="logo"
+        width="24px"
+        height="24px"
+        style="margin-right: 10px;"
+      />
       <span>Rīgas biedrība Ķīnas pētniecībai &copy; 2019</span>
     </v-footer>
   </v-app>
