@@ -88,24 +88,24 @@ export default {
       items: [
         {
           icon: 'mdi-home',
-          title: 'Welcome',
+          title: 'Добро пожаловать',
           to: '/'
         },
         {
           icon: 'mdi-book-open-variant',
-          title: 'About the Book',
-          to: '/inspire'
+          title: 'О книге',
+          to: '/books/daodejing'
         },
         {
           icon: 'mdi-email',
-          title: 'Contacts',
-          to: '/inspire'
+          title: 'Контакты',
+          to: '/contacts'
         }
       ],
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'RĪGAS BIEDRĪBA ĶĪNAS PĒTNIECĪBAI'
+      title: 'Рижское общество китайских исследований'
     }
   }
 }
