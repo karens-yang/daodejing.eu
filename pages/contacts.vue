@@ -33,7 +33,7 @@
             Юридический адрес:
           </v-list-item-subtitle>
           <v-list-item-title class="mb-2">
-            ул. Золитудес 46/1-34. г. Рига LV-1029, Латвия
+            Zolitudes 46/1-34, Rīga LV-1029, Latvia.
           </v-list-item-title>
           <v-list-item-subtitle>
             <v-icon small class="mr-1">mdi-email</v-icon>
