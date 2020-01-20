@@ -105,7 +105,7 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Рижское общество китайских исследований'
+      title: 'Дао Дэ Цзин: опыт русского перевода'
     }
   }
 }

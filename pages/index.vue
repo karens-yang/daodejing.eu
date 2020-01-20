@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="ml-5 align-left">Добро пожаловать в Рижское общество китайских исследований</h2>
+    <h2 class="ml-5 align-left">Лао Цзы и его трактат</h2>
     <v-layout row justify-center align-start align-content-center>
       <v-flex xs12 sm5 md5>
         <v-card class="mb-4 front-image ml-5 mt-4" max-width="340px">
@@ -19,9 +19,6 @@
       </v-flex>
       <v-flex xs12 sm6 md6>
         <div class="mt-2 ml-5 mr-5">
-          <h1>
-            ЛАО ЦЗЫ И ЕГО ТРАКТАТ
-          </h1>
           <p>
             Авторство древнекитайского текста «Лао цзы» (досл. «Старый мудрец» или «Старец-дитя») принято приписывать
             некоему уроженцу южного удела Чу, из рода Ли, по имени Эр, жившему в VI-V веках до н.э. Согласно ханьскому
