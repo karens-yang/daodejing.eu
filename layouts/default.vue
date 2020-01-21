@@ -88,7 +88,7 @@ export default {
       items: [
         {
           icon: 'mdi-home',
-          title: 'Добро пожаловать',
+          title: 'Добро пожаловать 2',
           to: '/'
         },
         {
