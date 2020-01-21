@@ -103,7 +103,7 @@
             </div>
           </div>
           <div class="book-property">
-            <div class="book-property-key">
+            <div class="book-property-key-title">
               О переводе
             </div>
           </div>
@@ -120,7 +120,7 @@
             данной книги.
           </div>
           <div class="book-property">
-            <div class="book-property-key">
+            <div class="book-property-key-title">
               О содержании книги
             </div>
           </div>
@@ -161,6 +161,9 @@ export default {
   flex-shrink: 0;
   flex-grow: 0;
   margin-right: 10px;
+}
+.book-property-key-title {
+  font-weight: bold;
 }
 .book-property-value {
   flex-shrink: 1;
