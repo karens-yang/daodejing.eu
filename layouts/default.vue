@@ -88,17 +88,17 @@ export default {
       items: [
         {
           icon: 'mdi-home',
-          title: 'Добро пожаловать 2',
+          title: 'Лао цзы и его трактат',
           to: '/'
         },
         {
           icon: 'mdi-book-open-variant',
-          title: 'О книге',
+          title: 'Наш перевод',
           to: '/books/daodejing'
         },
         {
           icon: 'mdi-email',
-          title: 'Контакты',
+          title: 'Обратная связь',
           to: '/contacts'
         }
       ],
