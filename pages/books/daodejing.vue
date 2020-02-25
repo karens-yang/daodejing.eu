@@ -18,7 +18,7 @@
             </div>
             <div class="book-property-value">
               Дао дэ цзин: опыт русского перевода.<br/>
-              Изд. 2-е, исп. и доп.
+              Изд. 2-е, испр. и доп.
             </div>
           </div>
           <div class="book-property">
@@ -67,7 +67,7 @@
               Количество страниц
             </div>
             <div class="book-property-value">
-
+              176
             </div>
           </div>
           <div class="book-property">
