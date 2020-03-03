@@ -74,6 +74,15 @@
         style="margin-right: 10px;"
       />
       <span>Rīgas biedrība Ķīnas pētniecībai &copy; 2019</span>
+      <v-spacer />
+
+      <span style="margin-right: 10px;">Следи за нами</span>
+      <div>
+        <a href="https://www.facebook.com/daodejing.eu/" target="_blank" style="text-decoration: none;">
+          <img src="/img/facebook.png" alt="facebook" width="29" height="29" style="margin-right: 0px; margin-bottom: -6px;">
+          <span style="display: inline-block; font-size: 12px; transform: translateY(-4px);">Facebook</span>
+        </a>
+      </div>
     </v-footer>
   </v-app>
 </template>
@@ -110,3 +119,15 @@ export default {
   }
 }
 </script>
+
+<style>
+.grower {
+  content: "";
+  width: 10px;
+  height: 1px;
+  width: 100%;
+  flex-shrink: 1;
+  flex-grow: 1;
+  border: solid 1px red;
+}
+</style>
