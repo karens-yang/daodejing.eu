@@ -1,6 +1,8 @@
 <template>
   <div>
-    <h2 class="page-header book-name ml-5">О книге</h2>
+    <h2 class="page-header book-name ml-5">
+      О книге
+    </h2>
     <v-card class="mb-4 front-image ml-5 mt-4" max-width="540px">
       <v-img
         src="/img/cover.jpg"
@@ -17,7 +19,7 @@
               Название книги
             </div>
             <div class="book-property-value">
-              Дао дэ цзин: опыт русского перевода.<br/>
+              Дао дэ цзин: опыт русского перевода.<br />
               Изд. 2-е, испр. и доп.
             </div>
           </div>
@@ -42,7 +44,7 @@
               Переводчик
             </div>
             <div class="book-property-value">
-              Карен Петросян<br/>
+              Карен Петросян<br />
               Доктор филологических наук (Dr. philol.)
             </div>
           </div>

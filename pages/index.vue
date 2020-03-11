@@ -1,6 +1,8 @@
 <template>
   <div>
-    <h2 class="ml-5 align-left">Лао Цзы и его трактат</h2>
+    <h2 class="ml-5 align-left">
+      Лао Цзы и его трактат
+    </h2>
     <v-layout row justify-center align-start align-content-center>
       <v-flex xs12 sm5 md5>
         <v-card class="mb-4 front-image ml-5 mt-4" max-width="340px">
