@@ -132,6 +132,41 @@
             важные разночтения между списками ДДЦ. В приложении имеется
             иероглифический указатель.
           </div>
+          <div class="book-property">
+            <div class="book-property-key-title">
+              Приобрести книгу
+            </div>
+          </div>
+          <div class="book-property">
+            <span>
+              По вопросам приобретения книги обращайтесь по электронному адресу:
+              <a href="mailto:info@daodejing.eu">info@daodejing.eu</a>
+            </span>
+            <form
+              action="https://www.paypal.com/cgi-bin/webscr"
+              method="post"
+              target="_top"
+            >
+              <input type="hidden" name="cmd" value="_s-xclick" />
+              <input type="hidden" name="hosted_button_id" value="THFFX92ZQJL3S" />
+              <input
+                type="image"
+                src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
+                border="0"
+                name="submit"
+                title="PayPal - The safer, easier way to pay online!"
+                alt="Donate with PayPal button"
+              />
+              <img
+                src="https://www.paypal.com/en_LV/i/scr/pixel.gif"
+                alt=""
+                border="0"
+                width="1"
+                height="1"
+              />
+            </form>
+
+          </div>
         </div>
       </v-card-text>
     </v-card>
@@ -153,20 +188,24 @@ export default {
   display: flex;
   flex-direction: column;
 }
+
 .book-property {
   display: flex;
   flex-direction: row;
   margin-bottom: 1em;
 }
+
 .book-property-key {
   flex-basis: 150px;
   flex-shrink: 0;
   flex-grow: 0;
   margin-right: 10px;
 }
+
 .book-property-key-title {
   font-weight: bold;
 }
+
 .book-property-value {
   flex-shrink: 1;
   flex-grow: 1;

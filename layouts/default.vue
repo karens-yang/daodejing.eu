@@ -36,7 +36,7 @@
       <!--        <v-icon>mdi-minus</v-icon>-->
       <!--      </v-btn>-->
       <img
-        src="img/logo.png"
+        src="/img/logo.png"
         alt="logo"
         width="48px"
         height="48px"
@@ -67,16 +67,16 @@
     <!--    </v-navigation-drawer>-->
     <v-footer :fixed="fixed" app>
       <img
-        src="img/logo.png"
+        src="/img/logo.png"
         alt="logo"
         width="24px"
         height="24px"
         style="margin-right: 10px;"
       />
-      <span>Rīgas biedrība Ķīnas pētniecībai &copy; 2019</span>
+      <span style="font-size: 0.875em;">Rīgas biedrība Ķīnas pētniecībai &copy; 2019</span>
       <v-spacer />
 
-      <span style="margin-right: 10px;">Следи за нами</span>
+      <span style="margin-right: 10px; font-size: 0.75em;">Следи за нами:</span>
       <div>
         <a href="https://www.facebook.com/daodejing.eu/" target="_blank" style="text-decoration: none;">
           <img src="/img/facebook.png" alt="facebook" width="29" height="29" style="margin-right: 0px; margin-bottom: -6px;">

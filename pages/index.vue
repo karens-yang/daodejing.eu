@@ -7,7 +7,7 @@
       <v-flex xs12 sm5 md5>
         <v-card class="mb-4 front-image ml-5 mt-4" max-width="340px">
           <v-img
-            src="img/front.png"
+            src="/img/front.png"
             alt="Лао цзы едет на быке"
             width="340"
             contain="true"
